@@ -1,0 +1,42 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+.intro{
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    text-align: center;
+
+    border: solid;
+}
+img{
+    position: absolute;
+    top: 27%;
+    left: 47%;
+
+}
+.intro >h1{
+    position: absolute;
+    top: 52%;
+    left: 28%;
+    font-size: 4.3em;
+    color: white;
+    /* font-weight: semi-bold; */   
+}
+.intro >p{
+   position: absolute;
+    top: 78%;
+    left: 30%; 
+    color: white;
+    font-size: 1.1em;
+}
+#mouse{
+   position: absolute;
+    top: 93%;
+    left: 50%; 
+}
