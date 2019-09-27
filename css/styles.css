@@ -24,7 +24,6 @@ img{
     left: 28%;
     font-size: 4.3em;
     color: white;
-    /* font-weight: semi-bold; */   
 }
 .intro >p{
    position: absolute;
@@ -38,3 +37,28 @@ img{
     top: 93%;
     left: 50%; 
 }
+
+.about{
+    border: solid;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    text-align: center;
+}
+.about >h1{
+    font-size: 4.3em;
+    margin-top: 70px;
+}
+.about >p{
+    line-height: 2.5em;
+}
+.about1{
+    background-image: url('../assets/backgrounds/s_image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
