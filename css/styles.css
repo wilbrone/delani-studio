@@ -190,7 +190,7 @@ button{
 }
 .foot{
     width: 100%;
-    height: 30%;
+    height: 15%;
     color: black !important;
 }
 .icons{
@@ -206,7 +206,7 @@ button{
     width: 6%;
 }
 .foot >p{
-    margin-top: 50px;
+    margin-top: 40px;
     letter-spacing: 3px;
     font-weight: bold;
 }
