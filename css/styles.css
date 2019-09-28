@@ -100,14 +100,20 @@ body{
     margin-left: 13px;
     margin-right: 10px;
     background: transparent;
+    border: none;
 }
 #card2{
     margin: 0 10px;
     background: transparent;
+    border: none;
 }
 #card3{
     margin: 0 10px;
     background: transparent;
+    border: none;
+}
+div >p{
+    margin: auto 10px;  
 }
 #we-do-body{
     padding: 0;
@@ -134,3 +140,73 @@ h1.portfolio{
     margin-right: auto;    
 }
 
+/* start of the contact us section */
+.contact-us{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 355%; 
+    color: white; 
+}
+.contact{
+    background-image: url('../assets/backgrounds/c_image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+.contact >h1{
+    font-size: 4.1em;
+    margin-top: 35px;    
+}
+.forms >form{
+    width: 65%;
+    display: fex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="email"]::placeholder { /* Firefox, Chrome, Opera */ 
+    color: white; 
+} 
+input[type="name"]::placeholder { /* Firefox, Chrome, Opera */ 
+    color: white; 
+}
+
+textarea::placeholder {
+  color: #fff !important;  
+}
+button{
+    width: 60%;
+    background-color: #b5947c !important;
+    color: white !important;
+    border: #b5947c !important;
+}
+.foot{
+    width: 100%;
+    height: 30%;
+    color: black !important;
+}
+.icons{
+    width: 47%;
+    display: fex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    justify-content: space-around;
+
+}
+.icons >img{
+    width: 6%;
+}
+.foot >p{
+    margin-top: 50px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
