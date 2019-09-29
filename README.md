@@ -1,5 +1,5 @@
-# Ghanian Akan Name App
-#### Ghanian Culture, 22nd Sept, 2019
+# Delani Studio
+#### Delani Studio, 29th Sept, 2019
 #### By **Wilbrone**
 ## Description
 This page alows the asers to view the services of Delani Studio and their portfolio. The users can also contact the organization and get reply via their emails, which is managed by MailChimp.
