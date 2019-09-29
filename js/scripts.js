@@ -29,7 +29,11 @@ $("#paragaraph-3").click(function() {
 });
 
 //For the hover effects on portfolio images 
-
+$("#image1").mouseover(function(){
+  $(".para1").toggle();
+  }).mouseout(function(){
+    $(".para1").toggle();
+ });
 
 // ****subscribing our users for our mailchimp lists....****
 $('#contactus-form').bind('submit', function(event) {
@@ -42,8 +46,7 @@ $('#contactus-form').bind('submit', function(event) {
   var url =   "https://us20.api.mailchimp.com/2.0/lists/subscribe.json?"
             +  "apikey=72864af7aa72392eb9e03dc03dbeab83-us20&id=3563379fa3"//API KEY  
             +  "&email[email]=" + email //email address registering
-            +  "&merge_vars[FNAME]=" + name //name we're registering
-            +  "&merge_vars[LNAME]="//last name
+            +  "&merge_vars[NAME]=" + name //name we're registering
             +  "&merge_vars[MESSAGE]=" + message//message
             +  "&double_optin=true" //add to list even if email is invalid
             +  "&send_welcome=true"; //send an email notification to new subscriber
@@ -64,3 +67,5 @@ $('#contactus-form').bind('submit', function(event) {
   });  //End of ajax
 
 });  //End of click bind
+
+
