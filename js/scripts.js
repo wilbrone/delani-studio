@@ -96,7 +96,6 @@ $('#contactus-form').bind('submit', function(event) {
         alert("success");
       },
       error: function(jqXHR, textStatus, errorThrown) {
-          // console.log(JSON.stringify());
         console.log(errorThrown);
       }
   });  //End of ajax
