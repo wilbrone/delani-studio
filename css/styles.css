@@ -1,3 +1,4 @@
+
 body{
     height: 100%;
     margin: 0;
@@ -322,3 +323,53 @@ button{
     letter-spacing: 3px;
     font-weight: bold;
 }
+
+
+
+
+
+/* MEDIA QUERY */
+@media screen and (min-width: 480px) {
+    .we-do{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        display: block;
+        top: 180%;
+    }
+    .images{
+        width: 85%;
+    }
+    .contact-us{
+        position: absolute;
+        width: 100%;
+        /* height: 100%; */
+        text-align: center;
+        top: 230%; 
+        color: white; 
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+  .we-do{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        display: block;
+        top: 180%;
+    }
+    .images{
+        width: 85%;
+    }
+    .contact-us{
+        position: absolute;
+        width: 100%;
+        /* height: 100%; */
+        text-align: center;
+        top: 230%; 
+        color: white; 
+    }
+}
+
+
