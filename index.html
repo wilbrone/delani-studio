@@ -50,28 +50,40 @@
           <h1>WHAT WE DO</h1>
           <div class="container-fluid row" id="we-do-body">
                <div class="card" id="card1" style="max-width: 32%;">
-                    <img src="assets/services_icons/design_icon.png" class="card-img-top" alt="..." style="width: 30%; display: block; margin-left: auto; margin-right: auto;">
-                    <h4>DESIGN</h4>
+                    <div style="">
+                         <img src="assets/services_icons/design_icon.png" alt="..." style="min-width: 30%; display: flex; margin-left: auto; margin-right: auto;">
+                         <h4>DESIGN</h4>
+                    </div>
                     <!--  -->
-                    <p>
-                       Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.
-                    </p>
+                    <div style="display: none;">
+                         <p>
+                            Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.
+                         </p>
+                    </div>
                </div>
                <div class="card" id="card2" style="max-width: 32%;">
-                    <img src="assets/services_icons/dev_icon.png" class="card-img-top" alt="..." style="width: 32%; display: block; margin-left: auto; margin-right: auto;">
-                    <h4>DEVELOPMENT</h4>
+                    <div>
+                         <img src="assets/services_icons/dev_icon.png" alt="..." style="width: 32%; display: block; margin-left: auto; margin-right: auto;">
+                         <h4>DEVELOPMENT</h4>
+                    </div>
                     <!--  -->
-                    <p>
-                         All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
-                    </p>
+                    <div style="display: none;">
+                         <p>
+                              All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
+                         </p>
+                    </div>
                </div>
                <div class="card" id="card3" style="max-width: 32%;">
-                    <img src="assets/services_icons/product_icon.png" class="card-img-top" alt="..." style="width: 27%; display: block; margin-left: auto; margin-right: auto;">
-                    <h4>PRODUCT MANAGEMENT</h4>
+                    <div>
+                         <img src="assets/services_icons/product_icon.png" alt="..." style="width: 27%; display: block; margin-left: auto; margin-right: auto;">
+                         <h4>PRODUCT MANAGEMENT</h4>
+                    </div>
                     <!--  -->
-                    <p>
-                         Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements eveolve.
-                    </p>
+                    <div style="display: none;">
+                         <p>
+                              Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements eveolve.
+                         </p>
+                    </div>
                </div>
           </div>
           <h1 class="portfolio">PORTFOLIO</h1>
@@ -92,17 +104,17 @@
           <div class="contact">
                <h1>CONTACT US</h1>
                <div class="forms">
-                    <form class="row">
+                    <form class="row" method="POST" id="contactus-form">
                       <div class="form-group" style="width: 45%;">
-                        <input type="name" class="form-control" id="exampleFormControlInput1" name="fist-name" style="background: 0; color: white !important;" placeholder="Name...">
+                        <input type="name" class="form-control" id="exampleFormControlInput1" name="fist-name" style="background: 0 !important; color: white !important;" placeholder="Name...">
                       </div>
                       <div class="form-group" style="width: 45%;">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" name="email" style="background: 0; color: white !important;" placeholder="Email...">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" name="email" style="background: 0 !important; color: white !important;" placeholder="Email...">
                       </div>
                       <div class="form-group" style="width: 95%;">
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" style="background: 0; color: white !important;" placeholder="Your message here..."></textarea>
                       </div>
-                      <button type="button" class="btn btn-warning">SUBMIT</button>
+                      <button type="submit" class="btn btn-warning" value="Submit">SUBMIT</button>
                     </form>
                </div>
           </div>
@@ -131,11 +143,12 @@
 
     <!-- scripts for jquery and my local js -->
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha384-mlceH9HlqLp7GMKHrj5Ara1+LvdTZVMx4S1U43/NxCvAkzIo8WJ0FE7duLel3wVo" crossorigin="anonymous"></script>
+     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> -->
     <script src="js/scripts.js"></script>
        
     <!-- scripts for bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <!--  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
    </body> 
 </html>
