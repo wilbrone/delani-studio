@@ -30,10 +30,45 @@ $("#paragaraph-3").click(function() {
 
 //For the hover effects on portfolio images 
 $("#image1").mouseover(function(){
-  $(".para1").toggle();
+  $(".para1").show();
   }).mouseout(function(){
-    $(".para1").toggle();
+    $(".para1").hide();
  });
+$("#image2").mouseover(function(){
+  $(".para2").show();
+  }).mouseout(function(){
+    $(".para2").hide();
+});
+$("#image3").mouseover(function(){
+  $(".para3").show();
+  }).mouseout(function(){
+    $(".para3").hide();
+});
+$("#image4").mouseover(function(){
+  $(".para4").show();
+  }).mouseout(function(){
+    $(".para4").hide();
+});
+$("#image5").mouseover(function(){
+  $(".para5").show();
+  }).mouseout(function(){
+    $(".para5").hide();
+});
+$("#image6").mouseover(function(){
+  $(".para6").show();
+  }).mouseout(function(){
+    $(".para6").hide();
+});
+$("#image7").mouseover(function(){
+  $(".para7").show();
+  }).mouseout(function(){
+    $(".para7").hide();
+});
+$("#image8").mouseover(function(){
+  $(".para8").show();
+  }).mouseout(function(){
+    $(".para8").hide();
+});  
 
 // ****subscribing our users for our mailchimp lists....****
 $('#contactus-form').bind('submit', function(event) {
@@ -44,7 +79,7 @@ $('#contactus-form').bind('submit', function(event) {
   var email = $('[name="email"]').val();//get email field value
   var message = $('[name="message"]').val();//get email field value
   var url =   "https://us20.api.mailchimp.com/2.0/lists/subscribe.json?"
-            +  "apikey=72864af7aa72392eb9e03dc03dbeab83-us20&id=3563379fa3"//API KEY  
+            +  "apikey=509f1576565b913cce3554b7c756d303-us20&id=3563379fa3"//API KEY  
             +  "&email[email]=" + email //email address registering
             +  "&merge_vars[NAME]=" + name //name we're registering
             +  "&merge_vars[MESSAGE]=" + message//message
