@@ -129,14 +129,14 @@ h1.portfolio{
     margin-bottom: 0px; 
 }
 .images{
-    width: 79%;
+    width: 75%;
     justify-content: space-around;
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
 .images >img{
-    width: 23%;
+    width: 22%;
     margin-top: 25px;
     display: block;
     margin-left: auto;

@@ -1,14 +1,14 @@
-// ****click effect for the first service icons..****
+// ****click effect for the Design service icons..****
 $("#one").click(function() {
   $("#paragaraph-1").toggle(); //comes in
   $("#one").toggle(); //slides out
 });
 $("#paragaraph-1").click(function() {
-  $("#one").toggle();
-  $("#paragaraph-1").toggle();
+  $("#one").toggle();    //comes in
+  $("#paragaraph-1").toggle();    //slides out
 });
 
-// ****click effect for the second service icons..****
+// ****click effect for the Development service icons..****
 $("#two").click(function() {
   $("#paragaraph-2").toggle();
   $("#two").toggle();
@@ -18,7 +18,7 @@ $("#paragaraph-2").click(function() {
   $("#paragaraph-2").toggle();
 });
 
-//****click effect for the second service icons..****
+//****click effect for the Product Mngment service icons..****
  $("#three").click(function() {
   $("#paragaraph-3").toggle();
   $("#three").toggle();
@@ -28,6 +28,8 @@ $("#paragaraph-3").click(function() {
   $("#paragaraph-3").toggle();
 });
 
+//For the hover effects on portfolio images 
+
 
 // ****subscribing our users for our mailchimp lists....****
 $('#contactus-form').bind('submit', function(event) {
@@ -36,6 +38,7 @@ $('#contactus-form').bind('submit', function(event) {
 
   var name  = $('[name="fist-name"]').val();//get name field value
   var email = $('[name="email"]').val();//get email field value
+  var message = $('[name="message"]').val();//get email field value
   var url =   "https://us20.api.mailchimp.com/2.0/lists/subscribe.json?"
             +  "apikey=72864af7aa72392eb9e03dc03dbeab83-us20&id=3563379fa3"//API KEY  
             +  "&email[email]=" + email //email address registering
@@ -54,9 +57,9 @@ $('#contactus-form').bind('submit', function(event) {
         alert("success");
       },
       error: function(jqXHR, textStatus, errorThrown) {
-          console.log(JSON.stringify(errorThrown));
+          // console.log(JSON.stringify());
         console.log(errorThrown);
       }
-  });//EO ajax
+  });  //End of ajax
 
-});//EO click bind
+});  //End of click bind
