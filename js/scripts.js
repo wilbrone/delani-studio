@@ -1,7 +1,32 @@
-// ****click effect for the service icons..****
-$("p").click(function() {
-    $("img").show();
-  });
+// ****click effect for the first service icons..****
+$("#one").click(function() {
+  $("#paragaraph-1").toggle(); //comes in
+  $("#one").toggle(); //slides out
+});
+$("#paragaraph-1").click(function() {
+  $("#one").toggle();
+  $("#paragaraph-1").toggle();
+});
+
+// ****click effect for the second service icons..****
+$("#two").click(function() {
+  $("#paragaraph-2").toggle();
+  $("#two").toggle();
+});
+$("#paragaraph-2").click(function() {
+  $("#two").toggle();
+  $("#paragaraph-2").toggle();
+});
+
+//****click effect for the second service icons..****
+ $("#three").click(function() {
+  $("#paragaraph-3").toggle();
+  $("#three").toggle();
+});
+$("#paragaraph-3").click(function() {
+  $("#three").toggle();
+  $("#paragaraph-3").toggle();
+});
 
 
 // ****subscribing our users for our mailchimp lists....****

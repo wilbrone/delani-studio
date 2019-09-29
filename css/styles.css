@@ -101,16 +101,19 @@ body{
     margin-right: 10px;
     background: transparent;
     border: none;
+    cursor: pointer;
 }
 #card2{
     margin: 0 10px;
     background: transparent;
     border: none;
+    cursor: pointer;
 }
 #card3{
     margin: 0 10px;
     background: transparent;
     border: none;
+    cursor: pointer;
 }
 div >p{
     margin: auto 10px;
