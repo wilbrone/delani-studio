@@ -43,7 +43,8 @@ $('#contactus-form').bind('submit', function(event) {
             +  "apikey=72864af7aa72392eb9e03dc03dbeab83-us20&id=3563379fa3"//API KEY  
             +  "&email[email]=" + email //email address registering
             +  "&merge_vars[FNAME]=" + name //name we're registering
-            +  "&merge_vars[LNAME]= anyone"//last name
+            +  "&merge_vars[LNAME]="//last name
+            +  "&merge_vars[MESSAGE]=" + message//message
             +  "&double_optin=true" //add to list even if email is invalid
             +  "&send_welcome=true"; //send an email notification to new subscriber
   $.ajax({
