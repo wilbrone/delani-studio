@@ -99,7 +99,7 @@ $('#contactus-form').bind('submit', function(event) {
         console.log(errorThrown);
       }
   });  //End of ajax
-
+  alert(name + " we have received your message. Thank you fro reaching out to us.")
 });  //End of click bind
 
 
